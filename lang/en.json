@@ -22,19 +22,19 @@
         "bakes you fresh cookies, it smells amazing."
     ],
     "balls": [
-        "Signs point to yes.",
-        "Yes.",
-        "Reply hazy, try again.",
-        "Without a doubt.",
-        "My sources say no.",
-        "As I see it, yes.",
-        "You may rely on it.",
-        "Concentrate and ask again.",
-        "Outlook not so good.",
-        "It is decidedly so.",
-        "Better not tell you now.",
-        "Very doubtful.",
-        "Yes - definitely.",
+        "You will become rich and famous!",
+        "You will become server head of 0.3.7!",
+        "You will become server head of 0.3e!",
+        "You will become server head of 0.3d!",
+        "You will become server head of 0.3x!",
+        "You will become server head of 0.3z!",
+        "You will become server head of 0.3c!",
+        "You will become server head of 0.3b!",
+        "You will become server head of Counter Strike!",
+        "You will become server head of Zombie Survival!",
+        "You will become server head of Turf Warfare!",
+        "You might become Administrator.",
+        "CandyGirl loves you <3.",
         "It is certain.",
         "Cannot predict now.",
         "Most likely.",
@@ -53,8 +53,8 @@
         "Looking good!",
         "Probably.",
         "Are you kidding?",
-        "Don't bet on it.",
-        "Forget about it."
+        "You might be the next host/co-host of plug.dj.",
+        "You might be the next owner of BTTDM."
     ],
     "nodatafound": "No previous data found.",
     "currentlang": "\/me Language currently set to: %%LANGUAGE%%",
@@ -202,7 +202,7 @@
     "commandscd": "\/me [@%%NAME%%] The cooldown for commands by users is now set to %%TIME%% seconds.",
     "voteratio": "\/me [@%%NAME%%] @%%USERNAME%% ~ woots: %%WOOT%%, mehs: %%MEHS%%, ratio (w\/m): %%RATIO%%.",
     "website": "\/me Please visit our website: %%LINK%%",
-    "forum": "\/me Please Register at Our Forums: %%LINK%%",
+	"forum": "\/me Please Register at Our Forums: %%LINK%%"
     "twitter": "\/me [%%NAME%%] Follow us on Twitter: %%LINK%%",
     "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W\/%%GRABS%%G\/%%MEHS%%M."
 }
