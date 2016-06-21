@@ -3428,6 +3428,21 @@
                 }
             },
 
+            twitterCommand: {
+                command: 'twitter',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (typeof basicBot.settings.twitterLink === "string")
+                            API.sendChat(subChat(basicBot.chat.twitter, {name: chat.un, link: basicBot.settings.twitterLink}));
+                    }
+                }
+            }
+        }
+		
             unbanCommand: {
                 command: 'unban',
                 rank: 'bouncer',
@@ -3704,21 +3719,6 @@
                     }
                 }
             },
-
-            twitterCommand: {
-                command: 'twitter',
-                rank: 'user',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        if (typeof basicBot.settings.youtubeLink === "string")
-                            API.sendChat(subChat(basicBot.chat.twitter, {name: chat.un, link: basicBot.settings.twitterLink}));
-                    }
-                }
-            }
-        }
     };
 
     loadChat(basicBot.startup);
